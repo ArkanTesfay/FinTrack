@@ -8,6 +8,7 @@ gem 'rails', '~> 5.2.4', '>= 5.2.4.2'
 # Use sqlite3 as the database for Active Record
 
 # Use Puma as the app server
+gem 'devise-bootstrap-views', '~> 1.0'
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -21,8 +22,9 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
-gem 'bootstrap','~>4.3.1'
-# Use Redis adapter to run Action Cable in production
+gem 'bootstrap', '~> 4.4.1'# Use Redis adapter to run Action Cable in production
+gem 'jquery-rails'
+gem 'iex-ruby-client'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

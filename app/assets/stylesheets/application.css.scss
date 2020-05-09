@@ -1,1 +1,11 @@
-@import "bootstrap"
+@import "bootstrap";
+
+
+.navbar-brand{
+  font-size: 3rem;
+}
+#notice-alert{
+  margin-top: 10px;
+  text-decoration-style: dashed;
+  color: Black;
+}
